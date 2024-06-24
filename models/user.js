@@ -8,13 +8,13 @@ let user = mongoose.Schema({
         type:String
     },
     otp:{
-        type:Number
+        type:String
     },
     otpExp:{
         type:Date
     },
     status:{
-        type:String
+        type:Number
     },
     password:{
         type:String
