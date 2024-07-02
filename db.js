@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-mongoose.connect("mongodb://localhost:27017/WebApp").then(()=>{
+mongoose.connect(process.env.MONGODB).then(()=>{
     console.log("connected successfully");
 }).catch(()=>{
     console.log("An error occur");
