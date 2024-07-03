@@ -3,7 +3,7 @@ require("dotenv").config()
 const app = express()
 const router  = require("./router/auth")
 const Db = require("./db")
-let port = process.env.PORT || 80
+let port = process.env.PORT || 2000
 app.use(express.json())
 app.use(express.urlencoded())
 
